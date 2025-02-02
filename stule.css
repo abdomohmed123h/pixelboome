@@ -1,0 +1,161 @@
+* {
+    margin    : 0;
+    box-sizing: 0;
+    padding   : 0;
+    font-family: "Figtree",
+        serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+header {
+    background-color: rgb(14, 15, 17);
+}
+
+header nav {
+    background-color: #212121;
+}
+
+header nav a {
+    color          :wheat ;
+    text-decoration: none;
+    transition: ease all 500ms;
+}
+header nav a:hover{
+    /* padding: 25px; */
+text-align: center;
+padding-left: 20px ;
+padding-right: 25px;
+    border-radius: 40px;
+     background-color: #D0FF71;
+     color: #212121;
+}
+
+
+header button {
+    background-color: #D0FF71;
+     transition: ease all 500ms;
+
+}
+.button_get{
+background-color: #D0FF71;
+transition      : ease all 500ms;
+padding: 10px;
+}
+.button_get:hover{
+     background-color: white;
+}
+
+header button:hover{
+    background-color: white;
+}
+header.imh{
+    width: 290px;
+    max-width: 50%;
+}
+.offcanvas-body{
+     background-color: rgb(14, 15, 17) !important;
+}
+.section2 img{
+    width: 450px;
+    max-width: 90%;
+}
+.section2{
+    background-color: #000000;
+    border-bottom: #D0FF71 solid 15px;
+    padding-bottom: 40px;
+    overflow-y: hidden ;
+
+    
+}
+.lefte h1{
+font-size: 60px;
+}
+.lefte h2{
+   
+    font-size: 110PX;
+  
+color: transparent;
+-webkit-text-stroke: 1px white;
+}
+@media screen and (max-width: 800px) {
+    .lefte h1 {
+        font-size : 35px;
+        
+    }
+
+    .lefte h2 {
+        font-size : 49px;
+       
+    }
+}
+.k{
+    font-size: 40PX;
+
+color: transparent;
+-webkit-text-stroke: 1px white;
+}
+.section3{
+    background-color: #212121;
+}
+body{
+    background-color: #000000;
+}
+hr{
+    color: beige;
+}
+.arowe{
+    height: 65px;
+    width: 65px;
+    border-radius: 100px;
+    border-color: #27be54;
+    border-style: solid;
+}
+.arowe i{
+    color:  #27be54;
+}
+.work-process-item {
+    
+    /* Make elements invisible initially */
+    transition: opacity 1s ease-in-out;
+    /* Smooth transition */
+}
+.arowe:hover{
+    background-color: #D0FF71;
+}
+.p_sectio4{
+    margin-top: 40px;
+    color: #D0FF71;
+    font-size: 16px;
+}
+.item_img img{
+  
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.custom-list {
+    list-style  : none;
+    padding-left: 0;
+}
+
+.custom-list li {
+    position     : relative;
+    padding-left : 20px;
+    margin-bottom: 10px;
+}
+
+.custom-list li::before {
+    content : "→  ";
+    position: absolute;
+    left    : 0;
+    color   : white;
+}
+.sectione5{
+    background-color: #18191b;
+}
+ .h_img{
+    height: 250px;
+    object-fit: cover;
+
+}
