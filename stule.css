@@ -5,17 +5,17 @@
     font-family: "Figtree",
         serif;
 }
-
+body{
+    font-family: "Figtree",
+serif;
+}
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-
 header {
     background-color: rgb(14, 15, 17);
 }
-
 header nav {
     background-color: #212121;
 }
-
 header nav a {
     color          :wheat ;
     text-decoration: none;
@@ -30,12 +30,9 @@ padding-right: 25px;
      background-color: #D0FF71;
      color: #212121;
 }
-
-
 header button {
     background-color: #D0FF71;
      transition: ease all 500ms;
-
 }
 .button_get{
 background-color: #D0FF71;
@@ -43,9 +40,8 @@ transition      : ease all 500ms;
 padding: 10px;
 }
 .button_get:hover{
-     background-color: white;
+      background-color: white;
 }
-
 header button:hover{
     background-color: white;
 }
@@ -115,10 +111,7 @@ hr{
     color:  #27be54;
 }
 .work-process-item {
-    
-    /* Make elements invisible initially */
-    transition: opacity 1s ease-in-out;
-    /* Smooth transition */
+     transition: opacity 1s ease-in-out;
 }
 .arowe:hover{
     background-color: #D0FF71;
@@ -129,11 +122,9 @@ hr{
     font-size: 16px;
 }
 .item_img img{
-  
     width: 100%;
     margin-bottom: 50px;
 }
-
 .custom-list {
     list-style  : none;
     padding-left: 0;
@@ -144,7 +135,6 @@ hr{
     padding-left : 20px;
     margin-bottom: 10px;
 }
-
 .custom-list li::before {
     content : "→  ";
     position: absolute;
@@ -158,4 +148,37 @@ hr{
     height: 250px;
     object-fit: cover;
 
+}.p_ux{
+    color: aliceblue;
 }
+ 
+
+ .row:first-child {
+     background-color: #C5FF5E;
+ }
+
+ .row:last-child {
+     background-color: #111;
+ }
+
+ .menu-item {
+     font-size  : 20px;
+     font-weight: bold;
+     display    : flex;
+     align-items: center;
+     color      : black;
+ }
+
+ .row:last-child .menu-item {
+     color: #C5FF5E;
+ }
+
+ .star {
+     color       : black;
+     margin-right: 5px;
+ }
+
+ .row:last-child .star {
+     color: lightgray;
+ }
+ 
